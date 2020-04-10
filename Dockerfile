@@ -11,7 +11,6 @@ RUN apt-get install build-essential
 # downloading ImageMagick
 RUN wget https://www.imagemagick.org/download/ImageMagick.tar.gz && mkdir imagemagick && tar xvzf ImageMagick.tar.gz -C imagemagick && cd imagemagick && cd $(ls -d */|head -n 1) && ./configure && make && make install && ldconfig /usr/local/lib && magick -version
 
-
 # Sets mongo binary dir if you are using embeded mongodb for test
 RUN export MONGOMS_SYSTEM_BINARY=/usr/local/bin/mongod
 
