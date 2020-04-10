@@ -1,4 +1,4 @@
-FROM node:10.15.1
+FROM node:12.16.2
 
 # install graphicsmagick
 RUN apt-get update && apt-get install -y graphicsmagick
