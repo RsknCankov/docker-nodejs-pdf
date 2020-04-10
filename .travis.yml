@@ -5,5 +5,5 @@ services:
 
 script:
   - docker build -t rskn/nodejs .
-  - docker run -d --name rskn/nodejs rskn/nodejs
-  - docker ps | grep -q rskn/nodejs
+  - docker run -d --name rsknnodejs rskn/nodejs
+  - docker ps | grep -q rsknnodejs
