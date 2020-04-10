@@ -1,14 +1,9 @@
-language: python
-python:
-  - 2.7
-  - 3.2
-  - 3.5
+sudo: required
 
 services:
   - docker
 
-install:
+script:
   - docker build -t rskn/nodejs .
   - docker run -d --name rskn/nodejs rskn/nodejs
-
-script: docker ps | grep -q rskn/nodejs
+  - docker ps | grep -q rskn/nodejs
