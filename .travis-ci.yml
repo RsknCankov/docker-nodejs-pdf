@@ -11,5 +11,4 @@ install:
   - docker build -t rskn/nodejs .
   - docker run -d --name rskn/nodejs rskn/nodejs
 
-script:
-  - docker ps | grep -q rskn/nodejs
+script: docker ps | grep -q rskn/nodejs
