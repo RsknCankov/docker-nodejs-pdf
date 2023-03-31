@@ -1,4 +1,4 @@
-[![Travis](https://app.travis-ci.com/github/RsknCankov/docker-nodejs-pdf.svg?branch=master)](https://app.travis-ci.com/github/RsknCankov/docker-nodejs-pdf)
+[![Travis](https://app.travis-ci.com/RsknCankov/docker-nodejs-pdf.svg?branch=master)](https://app.travis-ci.com/github/RsknCankov/docker-nodejs-pdf/logscans)
 
 ### Node.js (14.15.1) [GraphicsMagick](http://www.graphicsmagick.org/) [ImageMagick](https://imagemagick.org) and [GhostScript](https://www.ghostscript.com/). I'm using it for Node.js tests execution with [chai-pdf](https://www.npmjs.com/package/chai-pdf). 
 
