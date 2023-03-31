@@ -1,6 +1,6 @@
 [![Travis](https://travis-ci.org/RsknCankov/docker-nodejs-pdf.svg?branch=master)](https://travis-ci.org/rskn/docker-nodejs-pdf)
 
-### Node.js (14.15.1) [GraphicsMagick](http://www.graphicsmagick.org/) [ImageMagick](https://imagemagick.org) and [GhostScript](https://www.ghostscript.com/). I'm using it basically for execution Node.js tests with [chai-pdf](https://www.npmjs.com/package/chai-pdf). 
+### Node.js (14.15.1) [GraphicsMagick](http://www.graphicsmagick.org/) [ImageMagick](https://imagemagick.org) and [GhostScript](https://www.ghostscript.com/). I'm using it for Node.js tests execution with [chai-pdf](https://www.npmjs.com/package/chai-pdf). 
 
 ### Pull from Docker Hub
 ```
